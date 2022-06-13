@@ -3,6 +3,11 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+
+button{
+    cursor: pointer;
+}
+
 figcaption{
     text-align: center;
 }
@@ -19,12 +24,25 @@ figcaption{
     display: flex;
     gap:1rem;
 }
-a[href*="facebook.com/"] {
+
+#top-button,#bottom-button{
+    margin-top: 1em;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    width: 1em;
+    border-radius: 1rem;
+    padding:2em;
+    font-size: 1rem;
+    border-style: solid;
+    text-decoration: none;
+}
+
+#header a[href*="facebook.com/"], #bottom-bar a[href*="facebook.com/"] {
   background: url(https://www.facebook.com/favicon.ico) no-repeat left center;
   padding-left: 23px;
   background-size: contain;
 }
-a[href*="youtube.com/"] {
+#header a[href*="youtube.com/"],#bottom-bar a[href*="youtube.com/"]  {
     background:url(https://www.youtube.com/favicon.ico) no-repeat left center;
     padding-left:23px;
     background-size:contain;
@@ -52,4 +70,10 @@ a[href*="youtube.com/"] {
 
 #past-engagements img{
     width:33.33%;
+}
+
+#bottom-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
