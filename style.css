@@ -83,6 +83,7 @@ figcaption{
     justify-content: center;
     background-image: url(./lightbackground.png);
     font-weight: bolder;
+    flex-wrap: wrap;
 }
 #band-splash{
     width: 50rem;
@@ -92,6 +93,8 @@ figcaption{
     display: flex;
     justify-content: center;
     background-image: url(./lightbackground.png);
+    gap:2rem;
+    flex-wrap: wrap;
 }
 #footer {
   display: flex;
@@ -99,10 +102,27 @@ figcaption{
   color:white;
 }
 
-#past-engagements img{
-    width:33.33%;
+#tall-images{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 
+#tall-images img{
+    max-width:30%;
+}
+
+#wide-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+
+}
+#wide-images img{
+    max-width: 50%;
+}
 #bottom-bar{
     display: flex;
     justify-content: center;
@@ -110,3 +130,4 @@ figcaption{
     align-items: center;
     background-image: url(./lightbackground.png);
 }
+
