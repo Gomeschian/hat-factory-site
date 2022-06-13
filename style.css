@@ -26,15 +26,16 @@ figcaption{
 }
 
 #top-button,#bottom-button{
-    margin-top: 1em;
+    margin-top: 1rem;
     color: #F9FAF8;
     background-color: #3882F6;
-    width: 1em;
+    width: 5rem;
     border-radius: 1rem;
-    padding:2em;
+    padding:1rem;
     font-size: 1rem;
     border-style: solid;
     text-decoration: none;
+    text-align: center;
 }
 
 #header a[href*="facebook.com/"], #bottom-bar a[href*="facebook.com/"] {
