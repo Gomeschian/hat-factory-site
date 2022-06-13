@@ -1,5 +1,6 @@
 body {
   height: 100vh;
+  width: auto;
   margin: 0;
   box-sizing: border-box;
   background-image: url(./dark-background.png);
@@ -73,21 +74,27 @@ figcaption{
 #hero{
     display: flex;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    height:auto;
 }
 #hero-text{
     color: white;
+    width:20%;
+    flex-basis: content;
 }
 #showcase{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     background-image: url(./lightbackground.png);
     font-weight: bolder;
     flex-wrap: wrap;
 }
+
+
+
 #band-splash{
-    width: 50rem;
-    height: auto;
+    min-width: 40%;
+    max-width: 40%;
 }
 #past-engagements{
     display: flex;
@@ -125,8 +132,8 @@ figcaption{
 }
 #bottom-bar{
     display: flex;
-    justify-content: center;
-    gap:10rem;
+    justify-content: space-evenly;
+ 
     align-items: center;
     background-image: url(./lightbackground.png);
 }
