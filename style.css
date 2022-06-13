@@ -53,20 +53,25 @@ h1 {
   display: flex;
   gap: 1rem;
 }
-
+#top-button{
+    font-size: 2vw;
+}
+#bottom-button{
+    min-width: fit-content;
+}
 #top-button,
 #bottom-button {
   color: #f9faf8;
   background-color: #3882f6;
-  width: 5rem;
+  width: fit-content;
   border-radius: 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  padding: 1rem;
-  font-size: 1rem;
+  padding: 1em;
   border-style: ridge;
   text-decoration: none;
   text-align: center;
+  max-width: fit-content;
 }
 #top-button:active,
 #bottom-button:active {
@@ -92,6 +97,7 @@ h1 {
   color: white;
   max-width: 40%;
   height: auto;
+  font-size: 2vw;
 }
 
 #hero{
