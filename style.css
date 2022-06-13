@@ -25,6 +25,7 @@ figcaption{
     font-size: 5rem;
   }
 #header {
+  user-select: none;
   display: flex;
   padding: 0;
   margin: 0;
@@ -70,6 +71,7 @@ figcaption{
 #hero{
     display: flex;
     justify-content: center;
+    font-size: 1.5rem;
 }
 #hero-text{
     color: white;
