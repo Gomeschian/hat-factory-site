@@ -2,7 +2,8 @@ body {
   height: 100vh;
   margin: 0;
   box-sizing: border-box;
-}
+  background-image: url(./dark-background.png);
+  font-family: "rye",'Times New Roman', Times, serif;}
 
 button{
     cursor: pointer;
@@ -12,13 +13,29 @@ figcaption{
     text-align: center;
 }
 
+@font-face {
+    font-family: "rye";
+    src: url("./fonts/rye-regular-webfont.woff2") format("woff2"),
+      url("./fonts/rye-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  h1{
+    font-size: 5rem;
+  }
 #header {
   display: flex;
-  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
   padding-top: 1rem;
+  color: black;
+  background-image: url(./lightbackground.png);
 }
 #header-right-side{
     display: flex;
@@ -26,11 +43,13 @@ figcaption{
 }
 
 #top-button,#bottom-button{
-    margin-top: 1rem;
+   
     color: #F9FAF8;
     background-color: #3882F6;
     width: 5rem;
     border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     padding:1rem;
     font-size: 1rem;
     border-style: solid;
@@ -52,21 +71,27 @@ figcaption{
     display: flex;
     justify-content: center;
 }
+#hero-text{
+    color: white;
+}
 #showcase{
     display: flex;
     justify-content: center;
+    background-image: url(./lightbackground.png);
 }
 #band-splash{
-    width: 50em;
+    width: 50rem;
     height: auto;
 }
 #past-engagements{
     display: flex;
     justify-content: center;
+    background-image: url(./lightbackground.png);
 }
 #footer {
   display: flex;
   justify-content: center;
+  color:white;
 }
 
 #past-engagements img{
@@ -75,6 +100,8 @@ figcaption{
 
 #bottom-bar{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap:10rem;
     align-items: center;
+    background-image: url(./lightbackground.png);
 }
