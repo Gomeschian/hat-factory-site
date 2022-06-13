@@ -53,11 +53,13 @@ figcaption{
     margin-bottom: 1rem;
     padding:1rem;
     font-size: 1rem;
-    border-style: solid;
+    border-style:ridge;
     text-decoration: none;
     text-align: center;
 }
-
+#top-button:active, #bottom-button:active{
+    border-style: inset;
+}
 #header a[href*="facebook.com/"], #bottom-bar a[href*="facebook.com/"] {
   background: url(https://www.facebook.com/favicon.ico) no-repeat left center;
   padding-left: 23px;
@@ -80,6 +82,7 @@ figcaption{
     display: flex;
     justify-content: center;
     background-image: url(./lightbackground.png);
+    font-weight: bolder;
 }
 #band-splash{
     width: 50rem;
