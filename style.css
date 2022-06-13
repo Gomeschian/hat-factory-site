@@ -1,0 +1,55 @@
+body {
+  height: 100vh;
+  margin: 0;
+  box-sizing: border-box;
+}
+figcaption{
+    text-align: center;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 1rem;
+}
+#header-right-side{
+    display: flex;
+    gap:1rem;
+}
+a[href*="facebook.com/"] {
+  background: url(https://www.facebook.com/favicon.ico) no-repeat left center;
+  padding-left: 23px;
+  background-size: contain;
+}
+a[href*="youtube.com/"] {
+    background:url(https://www.youtube.com/favicon.ico) no-repeat left center;
+    padding-left:23px;
+    background-size:contain;
+}
+#hero{
+    display: flex;
+    justify-content: center;
+}
+#showcase{
+    display: flex;
+    justify-content: center;
+}
+#band-splash{
+    width: 50em;
+    height: auto;
+}
+#past-engagements{
+    display: flex;
+    justify-content: center;
+}
+#footer {
+  display: flex;
+  justify-content: center;
+}
+
+#past-engagements img{
+    width:33.33%;
+}
