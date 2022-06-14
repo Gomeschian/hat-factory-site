@@ -132,11 +132,6 @@ h2 {
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 375px) {
-    #roar-room {
-      margin-bottom: -25%;
-    }
-  }
 
 #past-engagements {
   display: flex;
