@@ -112,6 +112,7 @@ h2 {
 }
 
 #hero {
+  user-select: none;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -131,7 +132,6 @@ h2 {
   font-weight: bolder;
   flex-wrap: wrap;
 }
-
 
 #past-engagements {
   display: flex;
