@@ -141,6 +141,7 @@ h2 {
   flex-wrap: wrap;
 }
 #footer {
+  user-select: none;
   display: flex;
   justify-content: center;
   color: white;
