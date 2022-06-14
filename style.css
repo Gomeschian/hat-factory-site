@@ -65,10 +65,10 @@ h2 {
   color: #f9faf8;
   background-color: #3882f6;
   width: fit-content;
-  border-radius: 1rem;
+  border-radius: 20px;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  padding: 1em;
+  padding: 10px;
   border-style: ridge;
   text-decoration: none;
   text-align: center;
