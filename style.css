@@ -94,6 +94,7 @@ h2 {
   padding-left: 23px;
   background-size: contain;
   font-size: 1rem;
+  font-weight: bolder;
 }
 #header a[href*="youtube.com/"],
 #bottom-bar a[href*="youtube.com/"] {
@@ -101,6 +102,7 @@ h2 {
   padding-left: 23px;
   background-size: contain;
   font-size: 1rem;
+  font-weight: bolder;
 }
 
 #hero-text {
