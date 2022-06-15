@@ -130,6 +130,7 @@ h2 {
   max-width: 40%;
   height: auto;
 }
+
 #showcase {
   user-select: none;
   display: flex;
@@ -138,7 +139,6 @@ h2 {
   font-weight: bolder;
   flex-wrap: wrap;
 }
-
 
 #showcase iframe {
   border-style: outset;
@@ -192,13 +192,62 @@ h2 {
   background-image: url(./lightbackground.png);
 }
 
-@media screen and (max-width: 412px) {
-  #roar-room-caption{
+@media screen and (max-width: 414px) {
+  #roar-room-caption {
     color: transparent;
   }
-  #showcase #roar-room{
+  #showcase #roar-room {
     border: none;
     border-style: double;
     border-color: transparent;
+  }
+
+  #hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: fit-content;
+    max-width: 100%;
+    border-style: none;
+    border-width: 0;
+    border-color: rgb(112, 110, 106);
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  #hero-text {
+    color: white;
+    max-width: 100%;
+    height: auto;
+    font-size: 1rem;
+    margin-bottom: 3%;
+    margin-left: 2%;
+  }
+  #top-button {
+    font-size: 1rem;
+  }
+  #band-splash {
+    max-width: 100%;
+    margin-top: 5%;
+  }
+  #tall-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  #tall-images img {
+    max-width: 100%;
+    border-style: none;
+  }
+  #wide-images img {
+    max-width: 100%;
+    border-style: none;
   }
 }
