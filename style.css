@@ -127,7 +127,7 @@ h2 {
 }
 
 #band-splash {
-  max-width: 40%;
+  max-width: 60%;
   height: auto;
 }
 
@@ -138,6 +138,13 @@ h2 {
   background-image: url(./lightbackground.png);
   font-weight: bolder;
   flex-wrap: wrap;
+}
+
+#latest {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #showcase iframe {
