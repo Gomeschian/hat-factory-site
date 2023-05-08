@@ -14,7 +14,9 @@ iframe {
 button {
   cursor: pointer;
 }
-
+figure {
+  text-align: center;
+}
 figcaption {
   text-align: center;
 }
