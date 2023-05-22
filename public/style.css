@@ -1,5 +1,6 @@
 body {
-  height: 100vh;
+  width: 100%;
+  max-width: 100%;
   margin: 0;
   box-sizing: border-box;
   background-image: url(./dark-background.png);
@@ -145,16 +146,17 @@ h2 {
   max-width: 100%;
 }
 
-.latest-images{
+.latest-images {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
 }
-.latest-images img, .latest-images a {
-  max-width: 80%;
-text-align: center;
+.latest-images img,
+.latest-images a {
+  max-width: 100%;
+  text-align: center;
 }
 
 #showcase iframe {
