@@ -1,6 +1,5 @@
 body {
   height: 100vh;
-  width: auto;
   margin: 0;
   box-sizing: border-box;
   background-image: url(./dark-background.png);
@@ -14,9 +13,11 @@ iframe {
 button {
   cursor: pointer;
 }
+
 figure {
   text-align: center;
 }
+
 figcaption {
   text-align: center;
 }
@@ -33,6 +34,7 @@ h1 {
   font-size: 7vw;
   margin-bottom: 0;
 }
+
 h2 {
   font-size: 4vw;
   margin-bottom: 0;
@@ -42,21 +44,18 @@ h2 {
   justify-self: center;
   align-self: center;
 }
+
 #header {
   user-select: none;
   display: flex;
-  padding: 0;
-  margin: 0;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-  padding-top: 0;
-  padding-bottom: 1rem;
+  padding: 0 2.5rem 1rem;
   color: black;
   background-image: url(./lightbackground.png);
 }
+
 #header-right-side {
   display: flex;
   gap: 1rem;
@@ -66,46 +65,42 @@ h2 {
 #bottom-button {
   color: #f9faf8;
   background-color: #3882f6;
-  width: fit-content;
   border-radius: 20px;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
   padding: 10px;
   border-style: ridge;
   text-decoration: none;
   text-align: center;
-  max-width: fit-content;
 }
 
-#hero-text-2 {
-  margin-bottom: 7%;
-}
 #top-button {
   font-size: 1.5vw;
+  min-width: 200px;
 }
+
 #bottom-button {
   min-width: fit-content;
 }
+
 #top-button:active,
 #bottom-button:active {
   border-style: inset;
 }
 
 #header a[href*="facebook.com/"],
-#bottom-bar a[href*="facebook.com/"] {
-  background: url(https://www.facebook.com/favicon.ico) no-repeat left center;
+#bottom-bar a[href*="facebook.com/"],
+#header a[href*="youtube.com/"],
+#bottom-bar a[href*="youtube.com/"] {
+  background-repeat: no-repeat;
+  background-position: left center;
   padding-left: 23px;
   background-size: contain;
   font-size: 1rem;
   font-weight: bolder;
 }
-#header a[href*="youtube.com/"],
-#bottom-bar a[href*="youtube.com/"] {
-  background: url(https://www.youtube.com/favicon.ico) no-repeat left center;
-  padding-left: 23px;
-  background-size: contain;
-  font-size: 1rem;
-  font-weight: bolder;
+
+#hero-text-2 {
+  margin-bottom: 7%;
 }
 
 #hero-text {
@@ -162,6 +157,7 @@ h2 {
   gap: 2rem;
   flex-wrap: wrap;
 }
+
 #footer {
   user-select: none;
   display: flex;
@@ -175,7 +171,8 @@ h2 {
   align-items: center;
 }
 
-#tall-images img {
+#tall-images img,
+#wide-images img {
   max-width: 30%;
   border-style: outset;
   border-width: 0.25rem;
@@ -188,12 +185,7 @@ h2 {
   align-items: center;
   margin-bottom: 1rem;
 }
-#wide-images img {
-  max-width: 50%;
-  border-style: outset;
-  border-width: 0.25rem;
-  border-color: rgb(112, 110, 106);
-}
+
 #bottom-bar {
   display: flex;
   justify-content: space-around;
@@ -205,6 +197,7 @@ h2 {
   #roar-room-caption {
     color: transparent;
   }
+
   #showcase #roar-room {
     border: none;
     border-style: double;
@@ -222,9 +215,11 @@ h2 {
     border-width: 0;
     border-color: rgb(112, 110, 106);
   }
+
   h1 {
     font-size: 1.75rem;
   }
+
   h2 {
     font-size: 1.5rem;
   }
@@ -233,17 +228,21 @@ h2 {
     color: white;
     max-width: 100%;
     height: auto;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-bottom: 3%;
     margin-left: 2%;
   }
+
   #top-button {
     font-size: 1rem;
+    min-width: 120px;
   }
+
   #band-splash {
     max-width: 100%;
     margin-top: 5%;
   }
+
   #tall-images {
     display: flex;
     flex-direction: column;
@@ -251,10 +250,8 @@ h2 {
     gap: 1.5rem;
     align-items: center;
   }
-  #tall-images img {
-    max-width: 100%;
-    border-style: none;
-  }
+
+  #tall-images img,
   #wide-images img {
     max-width: 100%;
     border-style: none;
