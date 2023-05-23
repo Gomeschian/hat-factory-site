@@ -155,8 +155,9 @@ h2 {
 }
 .latest-images img,
 .latest-images a {
-  max-width: 100%;
+  max-width: 80%;
   text-align: center;
+  padding: 1rem;
 }
 
 #showcase iframe {
